@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="Polityka prywatności aplikacji Zmianowiec (com.zabanet.shifter). Dane lokalne, kopie systemowe Android i kontakt z twórcą.">
+<title>Polityka prywatności — Zmianowiec</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;background:#f5f7fb;color:#182333}*{box-sizing:border-box}body{margin:0;padding:24px 16px}main{max-width:800px;margin:auto;padding:32px;background:#fff;border-radius:18px;border:1px solid #d9e0ea}h1{font-size:clamp(1.7rem,5vw,2.4rem);line-height:1.2;margin-top:0}h2{font-size:1.25rem;line-height:1.35;margin-top:2rem}a{color:#1455a0;text-underline-offset:3px;overflow-wrap:anywhere}code{overflow-wrap:anywhere}.meta{color:#4b596b}.summary{padding:16px;border-left:4px solid #36766c;background:#edf6f3;border-radius:4px}li{margin:.45rem 0}footer{margin-top:2rem;padding-top:1rem;border-top:1px solid #d9e0ea}a:focus-visible{outline:3px solid #df8d26;outline-offset:4px}@media(max-width:480px){main{padding:22px 18px}body{padding:12px 8px}}@media(prefers-color-scheme:dark){:root{background:#101723;color:#e8edf5}main{background:#172131;border-color:#39465a}.meta{color:#bac6d6}a{color:#9ecaff}.summary{background:#203b38;border-color:#8fd2c3}footer{border-color:#39465a}}
+</style>
+</head>
+<body><main>
+<header>
+<h1>Polityka prywatności Zmianowca</h1>
+<p class="meta">Aplikacja: <strong>Zmianowiec</strong><br>Identyfikator Android: <code>com.zabanet.shifter</code><br>Data aktualizacji i obowiązywania: <time datetime="2026-10-24">24 października 2026 r.</time></p>
+<p>Twórcą aplikacji i osobą do kontaktu w sprawach prywatności jest Rafał (zabanet). Kontakt: <a href="mailto:zakrafal@gmail.com">zakrafal@gmail.com</a>.</p>
+<p class="summary">Zmianowiec służy do prowadzenia harmonogramu zmianowego. Grafik, notatki i ustawienia są przetwarzane lokalnie. Aplikacja nie ma kont użytkowników ani własnej usługi synchronizacji, reklam czy analityki. Osobno należy uwzględnić systemowe kopie i migrację danych Androida, diagnostykę platformy, pocztę oraz hosting tej strony.</p>
+</header>
+<section aria-labelledby="local"><h2 id="local">1. Dane zapisane w aplikacji</h2>
+<p>Aplikacja zapisuje w lokalnej bazie SQLite w swojej przestrzeni danych:</p>
+<ul><li>nazwę harmonogramu, cykle oraz historię ich zmian;</li><li>nazwy i ustawienia brygad, rodzaje zmian, ich oznaczenia i kolory oraz daty odniesienia;</li><li>wyjątki od grafiku, dni wolne i notatki przypisane do dat i brygad;</li><li>ustawienia widoku, wybranej brygady i motywu.</li></ul>
+<p>Dane te są potrzebne do wyświetlania i edycji Twojego grafiku oraz odtworzenia ustawień po ponownym uruchomieniu. Notatki mogą zawierać dane osobowe, jeżeli je wpiszesz. Nie umieszczaj w nich danych wrażliwych ani informacji o innych osobach, których nie potrzebujesz do korzystania z aplikacji.</p>
+<p>Twórca nie otrzymuje Twojej lokalnej bazy ani dostępu do niej. Aplikacja nie dodaje własnego szyfrowania bazy hasłem; jej ochrona opiera się na izolacji aplikacji i zabezpieczeniach urządzenia. Korzystaj z blokady ekranu i aktualizuj system.</p></section>
+<section aria-labelledby="transfer"><h2 id="transfer">2. Wysyłanie danych, reklamy i uprawnienia</h2>
+<p>Funkcje harmonogramu nie wysyłają grafiku, notatek ani ustawień na serwer twórcy lub do dostawców reklam. Aplikacja nie zawiera reklam, reklamowego SDK, profilowania ani własnych narzędzi analitycznych. Nie wymaga rejestracji.</p>
+<p>Nie korzysta z lokalizacji, kontaktów, aparatu ani mikrofonu do prowadzenia grafiku. Samo techniczne uprawnienie do Internetu w pakiecie nie oznacza wysyłania danych z harmonogramu.</p>
+<p>Widok 3D korzysta z lokalnie dołączonych bibliotek i zasobów w WebView. Nie pobiera czcionek, skryptów ani elementów grafiku z CDN. Aplikacja nie korzysta z usługi zdalnych aktualizacji Expo OTA; aktualizacje wersji są dostarczane jako aktualizacje aplikacji, np. przez Google Play.</p></section>
+<section aria-labelledby="backup"><h2 id="backup">3. Kopie zapasowe i przenoszenie danych Androida</h2>
+<p>Kopia systemowa Androida to inny mechanizm niż synchronizacja realizowana przez aplikację. Jeżeli kopie danych aplikacji są dozwolone w danym wydaniu i włączone w ustawieniach urządzenia, system może objąć nimi lokalną bazę, w tym grafik i notatki, i zapisać ją u dostawcy kopii, np. Google. Nie jest to kopia dostępna twórcy Zmianowca.</p>
+<p>Dostępność kopii, przywracania oraz migracji między urządzeniami zależy od wersji aplikacji, Androida, producenta telefonu i Twoich ustawień. Wyłączenie kopii chmurowej nie daje uniwersalnej gwarancji wyłączenia wszystkich narzędzi migracji producenta. Sprawdź ustawienia kopii zapasowej i przenoszenia danych w swoim telefonie oraz politykę wybranego dostawcy. Nie zakładaj, że aplikacja zapewnia własną kopię lub możliwość odzyskania danych.</p></section>
+<section aria-labelledby="diagnostics"><h2 id="diagnostics">4. Błędy i diagnostyka</h2>
+<p>Aplikacja może pokazywać lokalnie techniczny kod błędu renderera, etap działania, czas próby i ograniczone liczniki zasobów. Nie wysyła ich automatycznie do twórcy i nie dołącza do nich notatek ani treści grafiku. Nie ma własnego systemu zdalnego raportowania awarii.</p>
+<p>Android, WebView, producent urządzenia lub Google Play mogą tworzyć i obsługiwać własne logi techniczne oraz raporty awarii według zasad platformy i Twoich ustawień diagnostycznych. Google Play może udostępniać twórcy zestawienia stabilności aplikacji. Nie są one własnym systemem analitycznym Zmianowca; nie obiecujemy wyłączenia diagnostyki całego systemu telefonu.</p></section>
+<section aria-labelledby="retention"><h2 id="retention">5. Przechowywanie i usuwanie</h2>
+<p>Dane lokalne pozostają w przestrzeni aplikacji do ich zmiany lub usunięcia. Możesz edytować notatki i wpisy w aplikacji. Aby usunąć całą lokalną bazę, użyj systemowej opcji wyczyszczenia danych aplikacji lub odinstaluj ją. Operacja może być nieodwracalna.</p>
+<p>Wyczyszczenie danych telefonu nie musi usuwać istniejących kopii u dostawcy systemowego ani danych przeniesionych wcześniej na inne urządzenie. Zarządzaj nimi osobno w ustawieniach dostawcy. Twórca nie może zdalnie odczytać ani usunąć lokalnego grafiku lub Twoich kopii systemowych.</p></section>
+<section aria-labelledby="contact"><h2 id="contact">6. Dobrowolny kontakt e-mail</h2>
+<p>Jeżeli napiszesz na <a href="mailto:zakrafal@gmail.com">zakrafal@gmail.com</a>, twórca otrzyma Twój adres e-mail i informacje, które samodzielnie podasz. Są one używane do obsługi zapytania i przechowywane przez czas potrzebny do odpowiedzi oraz wyjaśnienia sprawy, a dłużej tylko gdy wymaga tego prawo lub obrona roszczeń. Obsługa poczty odbywa się z udziałem operatorów pocztowych, w tym Gmail/Google.</p>
+<p>Nie wysyłaj haseł, całej bazy aplikacji ani prywatnych grafików. Możesz poprosić o dostęp, sprostowanie lub usunięcie korespondencji, ograniczenie jej przetwarzania albo zgłosić sprzeciw; zakres uprawnień zależy od właściwego prawa. W sprawach ochrony danych możesz również zwrócić się do właściwego organu nadzorczego, w Polsce Prezesa UODO.</p></section>
+<section aria-labelledby="website"><h2 id="website">7. Ta strona a aplikacja</h2>
+<p>Ta polityka jest udostępniana jako oddzielna, publiczna strona w GitHub Pages. Nie zawiera JavaScriptu, narzędzi śledzących, osadzonych zasobów z CDN ani zewnętrznych czcionek. Nie ustawia własnych plików cookie.</p>
+<p>Samo otwarcie strony powoduje połączenie z hostingiem GitHub. GitHub dokumentuje rejestrowanie i przechowywanie adresów IP odwiedzających w celach bezpieczeństwa, niezależnie od zalogowania. Dane połączenia są obsługiwane zgodnie z <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">polityką prywatności GitHub</a> i <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">informacją o danych GitHub Pages</a>. Twórca nie prowadzi na tej stronie własnej analityki. Logi hostingu tej strony nie są bazą danych użytkowników aplikacji.</p></section>
+<section aria-labelledby="changes"><h2 id="changes">8. Zmiany polityki</h2>
+<p>Polityka będzie aktualizowana, jeżeli zmieni się sposób działania aplikacji lub przetwarzania danych. Ewentualne dodanie reklam, synchronizacji lub narzędzi analitycznych wymaga odpowiedniego uaktualnienia informacji przed udostępnieniem takich funkcji. Aktualna data znajduje się na początku dokumentu.</p></section>
+<footer><p>Kontakt w sprawach Zmianowca i prywatności: <a href="mailto:zakrafal@gmail.com">zakrafal@gmail.com</a>.</p></footer>
+</main></body>
+</html>
