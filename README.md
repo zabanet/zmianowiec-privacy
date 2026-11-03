@@ -4,7 +4,7 @@ Polska polityka prywatności aplikacji **Zmianowiec** (`com.zabanet.shifter`).
 
 - Strona: https://zabanet.github.io/zmianowiec-privacy/
 - Kontakt: zakrafal@gmail.com
-- Data dokumentu: 2026-10-24
+- Data dokumentu: 2026-11-03
 
 Repozytorium zawiera wyłącznie publiczny dokument polityki, ten README i `.nojekyll`. Nie zawiera źródeł aplikacji ani danych użytkowników.
 
